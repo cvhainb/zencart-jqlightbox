@@ -29,12 +29,18 @@
 	line-height: 0;
 }
 #jquery-lightbox a img { border: none; }
-#lightbox-container-image-box {
+#ri-jquery-lightbox {
 	position: relative;
 	background-color: #fff;
 	width: 250px;
 	height: 250px;
 	margin: 0 auto;
+	-moz-box-shadow: 5px 5px 5px #ccc;
+  	-webkit-box-shadow: 5px 5px 5px #ccc;
+  	box-shadow: 0px 0px 50px #ccc;
+  	-moz-border-radius:10px;
+  	-webkit-border-radius:10px;
+  	border-radius:10px;
 }
 #lightbox-container-image { padding: 10px; }
 #lightbox-loading {
